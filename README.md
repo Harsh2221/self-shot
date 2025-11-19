@@ -1,3 +1,44 @@
+# Self-Shot
+
+**Self-Shot** is a personal self-reflection and life-tracking tool built with **Laravel (backend)** and **Vue 3 + Inertia (frontend)**.  
+It helps users track time left in granular units (days, weeks, months), log reflections, set habits & reminders, and review progress over time — designed for mindful, reflective growth.
+
+> Project author: Harsh Prajapati  
+> Stack: Laravel 12, Vue 3, Inertia.js, Vite, MySQL/SQLite, Redis (optional)
+
+---
+
+## Key ideas & value proposition
+
+- Visualize remaining time (days/weeks/months) for any target (life goals, project deadlines, milestones).  
+- Quickly capture short-form reflections and longer journal entries.  
+- Track weekly/monthly progress and habits.  
+- Minimal, distraction-free UI to encourage quick, regular reflection.  
+- Data export and privacy-first design (user data stored locally/remotely with user control).
+
+---
+
+## Features
+
+- User authentication (email / OAuth optional)  
+- Dashboard: time-left visualization (days / weeks / months)  
+- Daily/weekly/monthly reflection entries with tags and mood scores  
+- Habit tracker and streak view  
+- Timeline / calendar view of reflections and milestones   
+- Lightweight analytics: entries per period, average mood, streaks  
+- Settings: personal targets, reminder preferences, Dark mode  
+
+---
+
+## Tech stack
+
+- Backend: **Laravel 12** (PHP 8+)
+- Frontend: **Vue 3** + **Inertia.js** 
+- Build tooling: **Vite** (Laravel Vite plugin)  
+- Database: MySQL
+- Queue/Cache: Redis
+- Dev environment: Docker
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
